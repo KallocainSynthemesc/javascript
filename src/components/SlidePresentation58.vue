@@ -1,27 +1,28 @@
-<script setup>
-import MonacoEditor from "@/components/interactive/MonacoEditor.vue";
-</script>
 <template>
   <div class="slide">
-    <div class="heading">Functions - function invocation</div>
+    <div class="heading">Functions - Définir une fonction</div>
     <div class="content">
-      <MonacoEditor
-        code="const square = function(x) {
-  return x * x;
-};
+      <div
+        style="
+          background: #ffffff;
+          overflow: auto;
+          width: auto;
+          border: solid gray;
+          border-width: 0.1em 0.1em 0.1em 0.8em;
+          padding: 0.2em 0.6em;
+        "
+      >
+        <pre style="margin: 0; line-height: 125%">
+                  <span style="color: #000080; font-weight: bold">const</span> nom = <span style="color: #000080; font-weight: bold">function</span>(parameter1, parameter2, parameter3) {
+                    <span style="color: #008800; font-style: italic">// code à exécuter</span>
+                  }</pre>
+      </div>
 
-console.log(square(12)); //&lt;-- function invocation
-let result = square(4); //&lt;--- une autre invocation de fonction
-console.log(result)
-
-function multiply(p1, p2) { //&lt;-- d&eacute;claration de fonction classique
-  return p1 * p2;   // La fonction renvoie le produit de p1 et p2
-}
-
-console.log(multiply(3,4))"
+      <img
+        src="../assets/illustrations/functiondescription.svg"
+        class="html-css-logo"
+        style="left: 15%; top: 30%; width: 70%; height: 70%"
       />
     </div>
   </div>
 </template>
-
-<style scoped></style>

@@ -16,6 +16,7 @@ var toRightBtn = document.querySelector("#right-btn");
 let presentationController = document.querySelector("#presentation-area");
 var toFullScreenBtn = document.querySelector("#full-screen");
 var toSmallScreenBtn = document.querySelector("#small-screen");
+var bigscreensize = 0;
 
 // initailize defualt values
 // eslint-disable-next-line no-unused-vars
@@ -103,6 +104,10 @@ function fullScreenMode() {
   toSmallScreenBtn.classList.add("show");
 
   screenStatus = 1;
+  const styles = window.getComputedStyle(presentationController);
+  const height = parseFloat(styles.height); // Height in pixels
+  console.log(height);
+  document.documentElement.style.setProperty("--editorheight", bigscreensize);
 }
 
 // switch to small screen
@@ -111,17 +116,20 @@ function smallScreenMode() {
   toFullScreenBtn.classList.add("show");
   toSmallScreenBtn.classList.remove("show");
   screenStatus = 0;
+  const styles = window.getComputedStyle(presentationController);
+  bigscreensize = parseFloat(styles.height);
+  document.documentElement.style.setProperty("--editorheight", "310px");
 }
 
 // update counter
 function setSlideNo() {
-  slideIndex.value = currentSlideNo
+  slideIndex.value = currentSlideNo;
   slideIndex.innerText = ` of ${totalSides}`;
 }
 
-function changeByIndex(){
+function changeByIndex() {
   var tempSlide = currentSlide;
-  currentSlide = slides[slideIndex.value -1];
+  currentSlide = slides[slideIndex.value - 1];
   tempSlide.classList.remove("show");
   currentSlide.classList.add("show");
 
@@ -129,7 +137,7 @@ function changeByIndex(){
   modifyIFrameSrc(currentSlide);
 }
 
-function modifyIFrameSrc(slideElement){
+function modifyIFrameSrc(slideElement) {
   const iFrame = slideElement.getElementsByTagName("iframe")[0];
   if (iFrame != undefined) {
     const parentElement = iFrame.parentElement;

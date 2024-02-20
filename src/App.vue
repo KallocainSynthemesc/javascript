@@ -68,6 +68,117 @@ import SlidePresentation66 from "./components/SlidePresentation66.vue";
 import SlidePresentation67 from "./components/SlidePresentation67.vue";
 import SlidePresentation68 from "./components/SlidePresentation68.vue";
 import SlidePresentation69 from "./components/SlidePresentation69.vue";
+import SlidePresentation70 from "./components/SlidePresentation70.vue";
+import SlidePresentation71 from "./components/SlidePresentation71.vue";
+import SlidePresentation72 from "./components/SlidePresentation72.vue";
+import SlidePresentation73 from "./components/SlidePresentation73.vue";
+import SlidePresentation74 from "./components/SlidePresentation74.vue";
+import SlidePresentation75 from "./components/SlidePresentation75.vue";
+import SlidePresentation76 from "./components/SlidePresentation76.vue";
+import SlidePresentation77 from "./components/SlidePresentation77.vue";
+import SlidePresentation78 from "./components/SlidePresentation78.vue";
+import SlidePresentation79 from "./components/SlidePresentation79.vue";
+import SlidePresentation80 from "./components/SlidePresentation80.vue";
+import SlidePresentation81 from "./components/SlidePresentation81.vue";
+import SlidePresentation82 from "./components/SlidePresentation82.vue";
+import SlidePresentation83 from "./components/SlidePresentation83.vue";
+import SlidePresentation84 from "./components/SlidePresentation84.vue";
+import SlidePresentation85 from "./components/SlidePresentation85.vue";
+import SlidePresentation86 from "./components/SlidePresentation86.vue";
+import SlidePresentation87 from "./components/SlidePresentation87.vue";
+import SlidePresentation88 from "./components/SlidePresentation88.vue";
+import SlidePresentation89 from "./components/SlidePresentation89.vue";
+import SlidePresentation90 from "./components/SlidePresentation90.vue";
+import SlidePresentation91 from "./components/SlidePresentation91.vue";
+import SlidePresentation92 from "./components/SlidePresentation92.vue";
+import SlidePresentation93 from "./components/SlidePresentation93.vue";
+import SlidePresentation94 from "./components/SlidePresentation94.vue";
+import SlidePresentation95 from "./components/SlidePresentation95.vue";
+import SlidePresentation96 from "./components/SlidePresentation96.vue";
+import SlidePresentation97 from "./components/SlidePresentation97.vue";
+import SlidePresentation98 from "./components/SlidePresentation98.vue";
+import SlidePresentation99 from "./components/SlidePresentation99.vue";
+import SlidePresentation100 from "./components/SlidePresentation100.vue";
+import SlidePresentation101 from "./components/SlidePresentation101.vue";
+import SlidePresentation102 from "./components/SlidePresentation102.vue";
+import SlidePresentation103 from "./components/SlidePresentation103.vue";
+import SlidePresentation104 from "./components/SlidePresentation104.vue";
+import SlidePresentation105 from "./components/SlidePresentation105.vue";
+import SlidePresentation106 from "./components/SlidePresentation106.vue";
+import SlidePresentation107 from "./components/SlidePresentation107.vue";
+import SlidePresentation108 from "./components/SlidePresentation108.vue";
+import SlidePresentation109 from "./components/SlidePresentation109.vue";
+import SlidePresentation110 from "./components/SlidePresentation110.vue";
+import SlidePresentation111 from "./components/SlidePresentation111.vue";
+import SlidePresentation112 from "./components/SlidePresentation112.vue";
+import SlidePresentation113 from "./components/SlidePresentation113.vue";
+import SlidePresentation114 from "./components/SlidePresentation114.vue";
+import SlidePresentation115 from "./components/SlidePresentation115.vue";
+import SlidePresentation116 from "./components/SlidePresentation116.vue";
+import SlidePresentation117 from "./components/SlidePresentation117.vue";
+import SlidePresentation118 from "./components/SlidePresentation118.vue";
+import SlidePresentation119 from "./components/SlidePresentation119.vue";
+import SlidePresentation120 from "./components/SlidePresentation120.vue";
+import SlidePresentation121 from "./components/SlidePresentation121.vue";
+import SlidePresentation122 from "./components/SlidePresentation122.vue";
+import SlidePresentation123 from "./components/SlidePresentation123.vue";
+import SlidePresentation124 from "./components/SlidePresentation124.vue";
+import SlidePresentation125 from "./components/SlidePresentation125.vue";
+import SlidePresentation126 from "./components/SlidePresentation126.vue";
+import SlidePresentation127 from "./components/SlidePresentation127.vue";
+import SlidePresentation128 from "./components/SlidePresentation128.vue";
+import SlidePresentation129 from "./components/SlidePresentation129.vue";
+import SlidePresentation130 from "./components/SlidePresentation130.vue";
+import SlidePresentation131 from "./components/SlidePresentation131.vue";
+import SlidePresentation132 from "./components/SlidePresentation132.vue";
+import SlidePresentation133 from "./components/SlidePresentation133.vue";
+import SlidePresentation134 from "./components/SlidePresentation134.vue";
+import SlidePresentation135 from "./components/SlidePresentation135.vue";
+import SlidePresentation136 from "./components/SlidePresentation136.vue";
+import SlidePresentation137 from "./components/SlidePresentation137.vue";
+import SlidePresentation138 from "./components/SlidePresentation138.vue";
+import SlidePresentation139 from "./components/SlidePresentation139.vue";
+import SlidePresentation140 from "./components/SlidePresentation140.vue";
+import SlidePresentation141 from "./components/SlidePresentation141.vue";
+import SlidePresentation142 from "./components/SlidePresentation142.vue";
+import SlidePresentation143 from "./components/SlidePresentation143.vue";
+import SlidePresentation144 from "./components/SlidePresentation144.vue";
+import SlidePresentation145 from "./components/SlidePresentation145.vue";
+import SlidePresentation146 from "./components/SlidePresentation146.vue";
+import SlidePresentation147 from "./components/SlidePresentation147.vue";
+import SlidePresentation148 from "./components/SlidePresentation148.vue";
+import SlidePresentation149 from "./components/SlidePresentation149.vue";
+import SlidePresentation150 from "./components/SlidePresentation150.vue";
+import SlidePresentation151 from "./components/SlidePresentation151.vue";
+import SlidePresentation152 from "./components/SlidePresentation152.vue";
+import SlidePresentation153 from "./components/SlidePresentation153.vue";
+import SlidePresentation154 from "./components/SlidePresentation154.vue";
+import SlidePresentation155 from "./components/SlidePresentation155.vue";
+import SlidePresentation156 from "./components/SlidePresentation156.vue";
+import SlidePresentation157 from "./components/SlidePresentation157.vue";
+import SlidePresentation158 from "./components/SlidePresentation158.vue";
+import SlidePresentation159 from "./components/SlidePresentation159.vue";
+import SlidePresentation160 from "./components/SlidePresentation160.vue";
+import SlidePresentation161 from "./components/SlidePresentation161.vue";
+import SlidePresentation162 from "./components/SlidePresentation162.vue";
+import SlidePresentation163 from "./components/SlidePresentation163.vue";
+import SlidePresentation164 from "./components/SlidePresentation164.vue";
+import SlidePresentation165 from "./components/SlidePresentation165.vue";
+import SlidePresentation166 from "./components/SlidePresentation166.vue";
+import SlidePresentation167 from "./components/SlidePresentation167.vue";
+import SlidePresentation168 from "./components/SlidePresentation168.vue";
+import SlidePresentation169 from "./components/SlidePresentation169.vue";
+import SlidePresentation170 from "./components/SlidePresentation170.vue";
+import SlidePresentation171 from "./components/SlidePresentation171.vue";
+import SlidePresentation172 from "./components/SlidePresentation172.vue";
+import SlidePresentation173 from "./components/SlidePresentation173.vue";
+import SlidePresentation174 from "./components/SlidePresentation174.vue";
+import SlidePresentation175 from "./components/SlidePresentation175.vue";
+import SlidePresentation176 from "./components/SlidePresentation176.vue";
+import SlidePresentation177 from "./components/SlidePresentation177.vue";
+import SlidePresentation178 from "./components/SlidePresentation178.vue";
+import SlidePresentation179 from "./components/SlidePresentation179.vue";
+import SlidePresentation180 from "./components/SlidePresentation180.vue";
 </script>
 
 <template>
@@ -145,6 +256,117 @@ import SlidePresentation69 from "./components/SlidePresentation69.vue";
           <SlidePresentation67></SlidePresentation67>
           <SlidePresentation68></SlidePresentation68>
           <SlidePresentation69></SlidePresentation69>
+          <SlidePresentation70></SlidePresentation70>
+          <SlidePresentation71></SlidePresentation71>
+          <SlidePresentation72></SlidePresentation72>
+          <SlidePresentation73></SlidePresentation73>
+          <SlidePresentation74></SlidePresentation74>
+          <SlidePresentation75></SlidePresentation75>
+          <SlidePresentation76></SlidePresentation76>
+          <SlidePresentation77></SlidePresentation77>
+          <SlidePresentation78></SlidePresentation78>
+          <SlidePresentation79></SlidePresentation79>
+          <SlidePresentation80></SlidePresentation80>
+          <SlidePresentation81></SlidePresentation81>
+          <SlidePresentation82></SlidePresentation82>
+          <SlidePresentation83></SlidePresentation83>
+          <SlidePresentation84></SlidePresentation84>
+          <SlidePresentation85></SlidePresentation85>
+          <SlidePresentation86></SlidePresentation86>
+          <SlidePresentation87></SlidePresentation87>
+          <SlidePresentation88></SlidePresentation88>
+          <SlidePresentation89></SlidePresentation89>
+          <SlidePresentation90></SlidePresentation90>
+          <SlidePresentation91></SlidePresentation91>
+          <SlidePresentation92></SlidePresentation92>
+          <SlidePresentation93></SlidePresentation93>
+          <SlidePresentation94></SlidePresentation94>
+          <SlidePresentation95></SlidePresentation95>
+          <SlidePresentation96></SlidePresentation96>
+          <SlidePresentation97></SlidePresentation97>
+          <SlidePresentation98></SlidePresentation98>
+          <SlidePresentation99></SlidePresentation99>
+          <SlidePresentation100></SlidePresentation100>
+          <SlidePresentation101></SlidePresentation101>
+          <SlidePresentation102></SlidePresentation102>
+          <SlidePresentation103></SlidePresentation103>
+          <SlidePresentation104></SlidePresentation104>
+          <SlidePresentation105></SlidePresentation105>
+          <SlidePresentation106></SlidePresentation106>
+          <SlidePresentation107></SlidePresentation107>
+          <SlidePresentation108></SlidePresentation108>
+          <SlidePresentation109></SlidePresentation109>
+          <SlidePresentation110></SlidePresentation110>
+          <SlidePresentation111></SlidePresentation111>
+          <SlidePresentation112></SlidePresentation112>
+          <SlidePresentation113></SlidePresentation113>
+          <SlidePresentation114></SlidePresentation114>
+          <SlidePresentation115></SlidePresentation115>
+          <SlidePresentation116></SlidePresentation116>
+          <SlidePresentation117></SlidePresentation117>
+          <SlidePresentation118></SlidePresentation118>
+          <SlidePresentation119></SlidePresentation119>
+          <SlidePresentation120></SlidePresentation120>
+          <SlidePresentation121></SlidePresentation121>
+          <SlidePresentation122></SlidePresentation122>
+          <SlidePresentation123></SlidePresentation123>
+          <SlidePresentation124></SlidePresentation124>
+          <SlidePresentation125></SlidePresentation125>
+          <SlidePresentation126></SlidePresentation126>
+          <SlidePresentation127></SlidePresentation127>
+          <SlidePresentation128></SlidePresentation128>
+          <SlidePresentation129></SlidePresentation129>
+          <SlidePresentation130></SlidePresentation130>
+          <SlidePresentation131></SlidePresentation131>
+          <SlidePresentation132></SlidePresentation132>
+          <SlidePresentation133></SlidePresentation133>
+          <SlidePresentation134></SlidePresentation134>
+          <SlidePresentation135></SlidePresentation135>
+          <SlidePresentation136></SlidePresentation136>
+          <SlidePresentation137></SlidePresentation137>
+          <SlidePresentation138></SlidePresentation138>
+          <SlidePresentation139></SlidePresentation139>
+          <SlidePresentation140></SlidePresentation140>
+          <SlidePresentation141></SlidePresentation141>
+          <SlidePresentation142></SlidePresentation142>
+          <SlidePresentation143></SlidePresentation143>
+          <SlidePresentation144></SlidePresentation144>
+          <SlidePresentation145></SlidePresentation145>
+          <SlidePresentation146></SlidePresentation146>
+          <SlidePresentation147></SlidePresentation147>
+          <SlidePresentation148></SlidePresentation148>
+          <SlidePresentation149></SlidePresentation149>
+          <SlidePresentation150></SlidePresentation150>
+          <SlidePresentation151></SlidePresentation151>
+          <SlidePresentation152></SlidePresentation152>
+          <SlidePresentation153></SlidePresentation153>
+          <SlidePresentation154></SlidePresentation154>
+          <SlidePresentation155></SlidePresentation155>
+          <SlidePresentation156></SlidePresentation156>
+          <SlidePresentation157></SlidePresentation157>
+          <SlidePresentation158></SlidePresentation158>
+          <SlidePresentation159></SlidePresentation159>
+          <SlidePresentation160></SlidePresentation160>
+          <SlidePresentation161></SlidePresentation161>
+          <SlidePresentation162></SlidePresentation162>
+          <SlidePresentation163></SlidePresentation163>
+          <SlidePresentation164></SlidePresentation164>
+          <SlidePresentation165></SlidePresentation165>
+          <SlidePresentation166></SlidePresentation166>
+          <SlidePresentation167></SlidePresentation167>
+          <SlidePresentation168></SlidePresentation168>
+          <SlidePresentation169></SlidePresentation169>
+          <SlidePresentation170></SlidePresentation170>
+          <SlidePresentation171></SlidePresentation171>
+          <SlidePresentation172></SlidePresentation172>
+          <SlidePresentation173></SlidePresentation173>
+          <SlidePresentation174></SlidePresentation174>
+          <SlidePresentation175></SlidePresentation175>
+          <SlidePresentation176></SlidePresentation176>
+          <SlidePresentation177></SlidePresentation177>
+          <SlidePresentation178></SlidePresentation178>
+          <SlidePresentation179></SlidePresentation179>
+          <SlidePresentation180></SlidePresentation180>
         </section>
 
         <section class="counter">
@@ -153,11 +375,11 @@ import SlidePresentation69 from "./components/SlidePresentation69.vue";
             id="index"
             name="index"
             min="1"
-            max="96"
+            max="100"
             value="1"
             style="width: 40%"
           />
-          of 96
+          of 100
         </section>
 
         <section class="navigation">

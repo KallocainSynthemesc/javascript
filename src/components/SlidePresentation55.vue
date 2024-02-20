@@ -1,25 +1,27 @@
 <template>
   <div class="slide">
-    <div class="heading">Functions - Pourquoi utiliser des fonctions ?</div>
+    <div class="heading">Functions</div>
     <div class="content">
-      <p>
-        Avant d'entrer dans les détails, il faut établir une image claire de ce
-        que sont les fonctions
-      </p>
-      <ul>
-        <li>
-          <b>Maximiser la réutilisation du code et minimiser la redondance</b>
-        </li>
-        <br />
-        <li>
-          <b>Procedural decomposition</b>(diviser les systèmes en parties)
-        </li>
-      </ul>
-      <img
-        src="../assets/illustrations/pizza.svg"
-        class="html-css-logo"
-        style="left: 30%; top: 46%; width: 50%; height: 50%"
-      />
+      <div class="flex-container">
+        <div>
+          <ul>
+            <li>
+              Une fonction est un bloc de code qui ne s'exécute que lorsqu'il
+              est appelé.
+            </li>
+            <br />
+            <li>
+              Vous pouvez transmettre des données, appelées paramètres, à une
+              fonction.
+            </li>
+            <br />
+            <li>Une fonction peut renvoyer des données comme résultat.</li>
+          </ul>
+        </div>
+        <div style="width: 60%">
+          <img src="../assets/illustrations/function.svg" style="width: 100%" />
+        </div>
+      </div>
     </div>
   </div>
 </template>

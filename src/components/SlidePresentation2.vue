@@ -1,6 +1,6 @@
 <template>
   <div class="slide">
-    <img src="../assets/illustrations//html-5-logo.svg" class="html-css-logo" />
+    <img src="../assets/illustrations/html-5-logo.svg" class="html-css-logo" />
     <div class="heading">HTML, CSS et JS</div>
     <div class="content grid center">
       <h3 class="title">HTML</h3>

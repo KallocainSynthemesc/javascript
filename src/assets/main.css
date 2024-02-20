@@ -1,3 +1,7 @@
+:root {
+  --editorheight: 310px;
+}
+
 * {
   margin: 0;
   padding: 0;

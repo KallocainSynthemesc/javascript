@@ -1,3 +1,6 @@
+<script setup>
+import TimeMod from "@/components/interactive/TimeMod.vue";
+</script>
 <template>
   <div class="slide">
     <div class="heading">Opérateurs arithmétiques</div>
@@ -12,13 +15,7 @@
         class="html-css-logo"
         style="left: 40%; top: unset; height: 60%; width: 60%"
       />
-      <iframe
-        id="clock"
-        src="time.html"
-        width="1000"
-        height="1000"
-        frameborder="0"
-      ></iframe>
+      <TimeMod></TimeMod>
     </div>
   </div>
 </template>

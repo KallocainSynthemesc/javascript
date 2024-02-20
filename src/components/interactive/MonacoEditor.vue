@@ -395,29 +395,111 @@ export default {
   data() {
     return {
       content: this.code,
+      sandboxProxies: new WeakMap(),
+      editor: null,
     };
   },
-  props: ["code"],
-  methods: {},
+  props: ["code", "editorIndex"],
+  methods: {
+    compile() {
+      const textarea = this.$refs.output;
+      textarea.value = "";
+      const textcontent = monaco.editor
+        .getModels()
+        [this.editorIndex].getValue();
+
+      const console_log = window.console.log;
+      window.console.log = function (...args) {
+        console_log(...args);
+        if (!textarea) return;
+        args.forEach((arg) => (textarea.value += `${JSON.stringify(arg)}\n`));
+      };
+
+      try {
+        // Create a new Function with the code content
+        const compiledCode = new Function(textcontent);
+        compiledCode(); // Execute the compiled code
+      } catch (e) {
+        const errorMessage = e.message;
+        const lineNumber = e.lineNumber ? ` at line ${e.lineNumber - 2}` : "";
+        console.log(`Syntax error${lineNumber}: ${errorMessage}`);
+      }
+
+      window.console.log = console_log;
+    },
+  },
   mounted() {
     const editorElement = this.$refs.editor;
-
-    const createdEditor = monaco.editor.create(editorElement, {
+    this.editor = monaco.editor.create(editorElement, {
       value: this.content,
       language: "javascript",
+      automaticLayout: true,
+      fontSize: "18px",
+      theme: "vs-dark",
     });
-
-    // You can store the editor instance in a component data property or use it directly as needed
-    this.editor = createdEditor;
   },
 };
 </script>
 <template>
-  <div id="editor" ref="editor"></div>
+  <div class="flex-container">
+    <div style="width: 60%; height: 100%">
+      <div id="editor" ref="editor"></div>
+    </div>
+    <div style="width: 35%">
+      <textarea ref="output" readonly></textarea>
+      <button style="vertical-align: middle" @click="compile()">
+        <span>Compile</span>
+      </button>
+    </div>
+  </div>
 </template>
 <style scoped>
 #editor {
-  width: 100vw;
-  height: 100vh;
+  width: 60%;
+  height: 60%;
+  position: absolute !important;
+}
+textarea {
+  height: 250px;
+  width: 100%;
+}
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #feb322ff;
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 70%;
+  height: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 </style>

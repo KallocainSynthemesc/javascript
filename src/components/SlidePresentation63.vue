@@ -1,32 +1,28 @@
 <template>
   <div class="slide">
-    <div class="heading">Functions - Argument-Passing Basics</div>
+    <div class="heading">Functions - Arguments</div>
     <div class="content">
       <div class="flex-container">
-        <div style="width: 60%">
+        <div>
           <p>
-            <b
-              >Les arguments sont transmis en assignant automatiquement des
-              objets aux noms de variables locales.
-            </b>
+            Les diapositives suivantes poursuivent l'histoire des fonctions en
+            étudiant les concepts du passage d'arguments en Python, c'est-à-dire
+            la façon dont les objets sont envoyés aux fonctions en tant que
+            données d'entrée.
           </p>
           <p>
-            Les arguments de fonction (références à des objets partagés envoyées
-            par l'appelant) ne sont qu'un autre exemple d'affectation Javascript
-            à l'œuvre. Les objets passés en tant qu'arguments ne sont jamais
-            copiés automatiquement.
-          </p>
-          <p>
-            <b>C'est un peu comme faire : var box = box2 = "text"</b>
+            Comme nous le verrons, <b>les arguments</b> (aussi appelés
+            paramètres) sont affectés à des <b>noms dans une fonction</b>, mais
+            ils ont plus à voir avec les références d'objets qu'avec les scopes
+            de variables.
           </p>
         </div>
         <div>
-          <img
-            src="../assets/illustrations/argumentPassing.svg"
-            style="width: 85%"
-          />
+          <img src="../assets/illustrations/arguments.svg" style="width: 90%" />
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped></style>

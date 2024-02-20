@@ -1,33 +1,22 @@
+<script setup>
+import ArrayVisualizer from "@/components/interactive/ArrayVisualizer.vue";
+</script>
 <template>
   <div class="slide">
-    <div class="heading">Bloc syntax</div>
+    <div class="heading">Array Manipulation</div>
     <div class="content">
       <p>
-        Un bloc est un morceau de texte de programme Javascript qui est exécuté
-        en tant qu'unité.
+        Il existe de nombreuses fonctions de tableau directement disponibles sur
+        un type de tableau.
+        <b>Je ne vais pas les détailler</b> car nous n'avons pas encore abordé
+        les fonctions et cela pourrait prêter à confusion. Cependant, je veux
+        donner un aperçu <b>rapide</b> de ce qui est possible avec les tableaux
+        et montrer une courte liste de fonctions qui sont souvent utilisées pour
+        manipuler les tableaux.
       </p>
-      <p>Toutes les instructions composées Javascript:</p>
-      <div
-        style="
-          background: #ffffff;
-          overflow: auto;
-          width: auto;
-          border: solid gray;
-          border-width: 0.1em 0.1em 0.1em 0.8em;
-          padding: 0.2em 0.6em;
-        "
-      >
-        <pre style="margin: 0; line-height: 125%">
-                  Ligne d'en-tête{
-                          Bloc d'instructions imbriquées
-                  }</pre
-        >
-      </div>
-      <br />
-      <p>
-        Le bloc est délimité par une paire d'accolades { } et elles sont
-        obligatoires.
-      </p>
+      <ArrayVisualizer></ArrayVisualizer>
     </div>
   </div>
 </template>
+
+<style scoped></style>

@@ -1,36 +1,19 @@
+<script setup>
+import MonacoEditor from "@/components/interactive/MonacoEditor.vue";
+</script>
 <template>
   <div class="slide">
-    <div class="heading">Data Types - String - Concatenation</div>
+    <div class="heading">Data Types - Strings</div>
     <div class="content">
-      <p>
-        L'une des fonctions intégrées de JavaScript est la possibilité de
-        concaténer des chaînes de caractères. Si vous utilisez l'opérateur +
-        avec des nombres, il les additionne. Mais si vous utilisez cet opérateur
-        sur des chaînes de caractères, il les joint en ajoutant la seconde à la
-        première
-      </p>
-      <div
-        style="
-          background: #ffffff;
-          overflow: auto;
-          width: auto;
-          border: solid gray;
-          border-width: 0.1em 0.1em 0.1em 0.8em;
-          padding: 0.2em 0.6em;
-        "
-      >
-        <pre style="margin: 0; line-height: 125%">
-                  <span style="color: #0000ff">var</span> msg = <span style="color: #a31515">&quot;Hello, &quot;</span> + <span style="color: #a31515">&quot;world&quot;</span>; <span style="color: #008000">// Produces the string &quot;Hello, world&quot;</span>
-                  <span style="color: #0000ff">var</span> greeting = <span style="color: #a31515">&quot;Welcome to my blog,&quot;</span> + <span style="color: #a31515">&quot; &quot;</span> + name;
-                </pre>
-      </div>
-      <img
-        src="../assets/illustrations/chain.svg"
-        class="html-css-logo"
-        style="left: 20%; top: 55%; width: 60%; height: 40%"
+      <p>Échapper la chaîne de caractères</p>
+      <MonacoEditor
+        code="//jette actuellement une erreur 
+//parce qu'il n'est pas &eacute;chapp&eacute; correctement.
+//Vous devez le faire. Corrige le bug, champion !
+var text = &quot;&quot;j'adore&quot; tellement Perl que je n'arrive pas &agrave; y croire! Le meilleur langage de programmation au monde, je vous le jure ;)\&quot;;
+console.log(text);"
+        editorIndex="3"
       />
     </div>
   </div>
 </template>
-
-<style scoped></style>

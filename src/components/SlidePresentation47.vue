@@ -1,63 +1,33 @@
 <template>
   <div class="slide">
-    <div class="heading">Creating Arrays</div>
+    <div class="heading">Arrays</div>
     <div class="content">
-      <p>
-        La façon la plus simple de créer un tableau est d'utiliser un littéral
-        de tableau, qui est simplement une liste d'éléments de tableau séparés
-        par des virgules entre crochets
-      </p>
-      <div
-        style="
-          background: #ffffff;
-          overflow: auto;
-          width: auto;
-          border: solid gray;
-          border-width: 0.1em 0.1em 0.1em 0.8em;
-          padding: 0.2em 0.6em;
-        "
-      >
-        <pre style="margin: 0; line-height: 125%">
-                  <span style="color: #0000ff">var</span> empty = []; <span style="color: #008000">// Un tableau sans éléments</span>
-                  <span style="color: #0000ff">var</span> primes = [2, 3, 5, 7, 11]; <span style="color: #008000">// Un tableau avec 5 éléments numériques</span>
-                  <span style="color: #0000ff">var</span> misc = [ 1.1, <span style="color: #0000ff">true</span>, <span style="color: #a31515">&quot;a&quot;</span>, ]; <span style="color: #008000">// 3 éléments de différents types + virgule de fin de ligne</span></pre>
+      <div class="flex-container">
+        <div style="width: 78%">
+          <p>
+            Un tableau (array) est une <b>collection ordonnée de valeurs</b>.
+            Chaque valeur est appelée un élément, et chaque élément a une
+            position numérique dans le tableau, appelée son index. Les tableaux
+            JavaScript sont non typés : un élément de tableau peut être de
+            <b>n'importe quel type</b>, et différents éléments d'un même tableau
+            peuvent être de types différents. Les éléments d'un tableau peuvent
+            même être des objets ou d'autres tableaux, ce qui permet de créer
+            des structures de données complexes, telles que des tableaux
+            d'objets et des tableaux de tableaux.
+          </p>
+        </div>
+        <div style="width: 20%">
+          <img
+            src="../assets/illustrations/arrayIndex.svg"
+            style="width: 100%"
+          />
+        </div>
       </div>
-      <p>
-        Les valeurs d'un littéral de tableau ne doivent pas nécessairement être
-        des constantes ; elles peuvent être des expressions arbitraires
-      </p>
-      <div
-        style="
-          background: #ffffff;
-          overflow: auto;
-          width: auto;
-          border: solid gray;
-          border-width: 0.1em 0.1em 0.1em 0.8em;
-          padding: 0.2em 0.6em;
-        "
-      >
-        <pre style="margin: 0; line-height: 125%">
-                  <span style="color: #0000ff">var</span> base = 1024;
-                  <span style="color: #0000ff">var</span> table = [base, base+1, base+2, base+3];</pre>
-      </div>
-      <p>
-        Si vous omettez une valeur d'un littéral de tableau, l'élément omis
-        reçoit la valeur undefined
-      </p>
-      <div
-        style="
-          background: #ffffff;
-          overflow: auto;
-          width: auto;
-          border: solid gray;
-          border-width: 0.1em 0.1em 0.1em 0.8em;
-          padding: 0.2em 0.6em;
-        "
-      >
-        <pre style="margin: 0; line-height: 125%">
-                  <span style="color: #0000ff">var</span> count = [1,,3]; <span style="color: #008000">// An array with 3 elements, the middle one undefined.</span>
-                  <span style="color: #0000ff">var</span> undefs = [,,]; <span style="color: #008000">// An array with 2 elements, both undefined.</span></pre>
-      </div>
+      <img
+        src="../assets/illustrations/arrayboxes.svg"
+        class="html-css-logo"
+        style="left: 10%; top: 58%; height: 40%; width: 40%"
+      />
     </div>
   </div>
 </template>

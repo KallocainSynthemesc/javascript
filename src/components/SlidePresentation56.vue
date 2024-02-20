@@ -1,33 +1,25 @@
 <template>
   <div class="slide">
-    <div class="heading">Functions - Définir une fonction</div>
+    <div class="heading">Functions - Pourquoi utiliser des fonctions ?</div>
     <div class="content">
       <p>
-        Une fonction est créée avec une expression qui commence par le mot clé
-        <b>function</b>
+        Avant d'entrer dans les détails, il faut établir une image claire de ce
+        que sont les fonctions
       </p>
-      <div
-        style="
-          background: #ffffff;
-          overflow: auto;
-          width: auto;
-          border: solid gray;
-          border-width: 0.1em 0.1em 0.1em 0.8em;
-          padding: 0.2em 0.6em;
-        "
-      >
-        <pre style="margin: 0; line-height: 125%">
-                  <span style="color: #000080; font-weight: bold">function</span> nom(parameter1, parameter2, parameter3) {
-                    <span style="color: #008800; font-style: italic">// code à exécuter</span>
-                  }</pre>
-      </div>
+      <ul>
+        <li>
+          <b>Maximiser la réutilisation du code et minimiser la redondance</b>
+        </li>
+        <br />
+        <li>
+          <b>Procedural decomposition</b>(diviser les systèmes en parties)
+        </li>
+      </ul>
       <img
-        src="../assets/illustrations/functiondescriptionsimple.svg"
+        src="../assets/illustrations/pizza.svg"
         class="html-css-logo"
-        style="left: 15%; top: 30%; width: 70%; height: 70%"
+        style="left: 30%; top: 46%; width: 50%; height: 50%"
       />
     </div>
   </div>
 </template>
-
-<style scoped></style>

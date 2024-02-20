@@ -12,6 +12,7 @@ var clock = 12;
 var time;
 //mettre le calcul ici
 console.log("it is "+time+" o&apos;clock");'
+        editorIndex="2"
       />
     </div>
   </div>

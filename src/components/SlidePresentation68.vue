@@ -1,71 +1,30 @@
 <template>
   <div class="slide">
-    <div class="heading">Opérateurs de comparaison</div>
+    <div class="heading">Functions - Paramètre Valeur par défaut</div>
     <div class="content">
       <p>
-        Les opérateurs de comparaison sont utilisés pour comparer deux valeurs
-        et renvoyer un résultat booléen, que nous testerons et sur lequel nous
-        agirons dans une déclaration et un programme plus larges
+        Si nous appelons la fonction sans argument, elle utilise la valeur par
+        défaut
       </p>
-      <div class="flex-container">
-        <div>
-          <table class="tg">
-            <thead>
-              <tr>
-                <th class="tg-0lax">
-                  <span style="font-weight: bold">Operator</span>
-                </th>
-                <th class="tg-0lax">
-                  <span style="font-weight: bold">Nom</span>
-                </th>
-                <th class="tg-0lax">
-                  <span style="font-weight: bold">Exemple</span>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="tg-0lax">==</td>
-                <td class="tg-0lax">Egale</td>
-                <td class="tg-0lax">x == y</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">==</td>
-                <td class="tg-0lax">valeur égale et type égal</td>
-                <td class="tg-0lax">x == y</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">!=</td>
-                <td class="tg-0lax">Non égal</td>
-                <td class="tg-0lax">x != y</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">&gt;</td>
-                <td class="tg-0lax">Supérieur à</td>
-                <td class="tg-0lax">x &gt; y<br /></td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">&lt;</td>
-                <td class="tg-0lax">Inférieur à</td>
-                <td class="tg-0lax">x &lt; y</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">&gt;=</td>
-                <td class="tg-0lax">Supérieur ou égal à</td>
-                <td class="tg-0lax">x &gt;= y</td>
-              </tr>
-              <tr>
-                <td class="tg-0lax">&lt;=</td>
-                <td class="tg-0lax">Inférieur ou égal à</td>
-                <td class="tg-0lax">x &lt;= y</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div>
-          <img src="../assets/illustrations/scale.svg" style="width: 70%" />
-        </div>
+      <div
+        style="
+          background: #ffffff;
+          overflow: auto;
+          width: auto;
+          border: solid gray;
+          border-width: 0.1em 0.1em 0.1em 0.8em;
+          padding: 0.2em 0.6em;
+        "
+      >
+        <pre style="margin: 0; line-height: 125%">
+                  <span style="color: #000080; font-weight: bold">function</span> multiply(x, y=<span style="color: #0000FF">4</span>) { <span style="color: #000080; font-weight: bold">return</span> x * y; } <span style="color: #008800; font-style: italic">//Le deuxième paramètre est un paramètre par défaut</span>
+                  console.log(multiply(<span style="color: #0000FF">8</span>)); <span style="color: #008800; font-style: italic">//result: 32</span></pre>
       </div>
+      <br />
+      <img
+        src="../assets/illustrations/defaultParameter.svg"
+        style="width: 35%"
+      />
     </div>
   </div>
 </template>

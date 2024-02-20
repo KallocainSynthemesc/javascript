@@ -6,7 +6,7 @@ import MonacoEditor from "@/components/interactive/MonacoEditor.vue";
     <div class="heading">Data Types - Integers</div>
     <div class="content">
       <p>Console.log affiche un message sur la console web</p>
-      <MonacoEditor code='console.log("Hello, World!");' />
+      <MonacoEditor code='console.log("Hello, World!");' editorIndex="0" />
     </div>
   </div>
 </template>

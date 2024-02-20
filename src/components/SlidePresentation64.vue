@@ -3,41 +3,30 @@
     <div class="heading">Functions - Argument-Passing Basics</div>
     <div class="content">
       <div class="flex-container">
-        <div>
+        <div style="width: 60%">
           <p>
             <b
-              >L'affectation des noms d'arguments à l'intérieur d'une fonction
-              n'affecte pas l'appelant.</b
-            >
+              >Les arguments sont transmis en assignant automatiquement des
+              objets aux noms de variables locales.
+            </b>
           </p>
-          <br />
           <p>
-            <b>C'est un peu comme faire :</b>
+            Les arguments de fonction (références à des objets partagés envoyées
+            par l'appelant) ne sont qu'un autre exemple d'affectation Javascript
+            à l'œuvre. Les objets passés en tant qu'arguments ne sont jamais
+            copiés automatiquement.
           </p>
-          <div
-            style="
-              background: #f0f0f0;
-              overflow: auto;
-              width: auto;
-              border: solid gray;
-              border-width: 0.1em 0.1em 0.1em 0.8em;
-              padding: 0.2em 0.6em;
-            "
-          >
-            <pre style="margin: 0; line-height: 125%">
-                      box <span style="color: #666666">=</span> box2 <span style="color: #666666">=</span> <span style="color: #4070a0">&quot;text&quot;</span>
-                      box2 <span style="color: #666666">=</span> <span style="color: #4070a0">&quot;nouveau texte&quot;</span></pre>
-          </div>
+          <p>
+            <b>C'est un peu comme faire : var box = box2 = "text"</b>
+          </p>
         </div>
-        <div style="width: 52%">
+        <div>
           <img
-            src="../assets/illustrations/argumentAssignment.svg"
-            style="width: 100%"
+            src="../assets/illustrations/argumentPassing.svg"
+            style="width: 85%"
           />
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<style scoped></style>

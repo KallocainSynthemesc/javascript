@@ -1,27 +1,33 @@
 <template>
   <div class="slide">
-    <div class="heading">Functions</div>
+    <div class="heading">Bloc syntax</div>
     <div class="content">
-      <div class="flex-container">
-        <div>
-          <ul>
-            <li>
-              Une fonction est un bloc de code qui ne s'exécute que lorsqu'il
-              est appelé.
-            </li>
-            <br />
-            <li>
-              Vous pouvez transmettre des données, appelées paramètres, à une
-              fonction.
-            </li>
-            <br />
-            <li>Une fonction peut renvoyer des données comme résultat.</li>
-          </ul>
-        </div>
-        <div style="width: 60%">
-          <img src="../assets/illustrations/function.svg" style="width: 100%" />
-        </div>
+      <p>
+        Un bloc est un morceau de texte de programme Javascript qui est exécuté
+        en tant qu'unité.
+      </p>
+      <p>Toutes les instructions composées Javascript:</p>
+      <div
+        style="
+          background: #ffffff;
+          overflow: auto;
+          width: auto;
+          border: solid gray;
+          border-width: 0.1em 0.1em 0.1em 0.8em;
+          padding: 0.2em 0.6em;
+        "
+      >
+        <pre style="margin: 0; line-height: 125%">
+                  Ligne d'en-tête{
+                          Bloc d'instructions imbriquées
+                  }</pre
+        >
       </div>
+      <br />
+      <p>
+        Le bloc est délimité par une paire d'accolades { } et elles sont
+        obligatoires.
+      </p>
     </div>
   </div>
 </template>

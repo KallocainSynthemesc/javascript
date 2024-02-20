@@ -12,6 +12,7 @@ var salaryNet, salaryMonthlyNet;
 //mettre le calcul ici
 console.log("The netto year salary is " + salaryNet);
 console.log("The netto monthly salary is " + salaryMonthlyNet);'
+        editorIndex="1"
       />
     </div>
   </div>

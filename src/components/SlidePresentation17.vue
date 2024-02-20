@@ -14,6 +14,13 @@
           recommencez au début de 1€ et retournez à l'étape 2
         </li>
       </ol>
+      <iframe
+        id="roulette"
+        src="roulette.html"
+        width="100%"
+        height="80%"
+        frameborder="0"
+      ></iframe>
     </div>
   </div>
 </template>

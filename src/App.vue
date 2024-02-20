@@ -179,6 +179,21 @@ import SlidePresentation177 from "./components/SlidePresentation177.vue";
 import SlidePresentation178 from "./components/SlidePresentation178.vue";
 import SlidePresentation179 from "./components/SlidePresentation179.vue";
 import SlidePresentation180 from "./components/SlidePresentation180.vue";
+import SlidePresentation181 from "./components/SlidePresentation181.vue";
+import SlidePresentation182 from "./components/SlidePresentation182.vue";
+import SlidePresentation183 from "./components/SlidePresentation183.vue";
+import SlidePresentation184 from "./components/SlidePresentation184.vue";
+import SlidePresentation185 from "./components/SlidePresentation185.vue";
+import SlidePresentation186 from "./components/SlidePresentation186.vue";
+import SlidePresentation187 from "./components/SlidePresentation187.vue";
+import SlidePresentation188 from "./components/SlidePresentation188.vue";
+import SlidePresentation189 from "./components/SlidePresentation189.vue";
+import SlidePresentation190 from "./components/SlidePresentation190.vue";
+import SlidePresentation191 from "./components/SlidePresentation191.vue";
+import SlidePresentation192 from "./components/SlidePresentation192.vue";
+import SlidePresentation193 from "./components/SlidePresentation193.vue";
+import SlidePresentation194 from "./components/SlidePresentation194.vue";
+import SlidePresentation195 from "./components/SlidePresentation195.vue";
 </script>
 
 <template>
@@ -367,6 +382,21 @@ import SlidePresentation180 from "./components/SlidePresentation180.vue";
           <SlidePresentation178></SlidePresentation178>
           <SlidePresentation179></SlidePresentation179>
           <SlidePresentation180></SlidePresentation180>
+          <SlidePresentation181></SlidePresentation181>
+          <SlidePresentation182></SlidePresentation182>
+          <SlidePresentation183></SlidePresentation183>
+          <SlidePresentation184></SlidePresentation184>
+          <SlidePresentation185></SlidePresentation185>
+          <SlidePresentation186></SlidePresentation186>
+          <SlidePresentation187></SlidePresentation187>
+          <SlidePresentation188></SlidePresentation188>
+          <SlidePresentation189></SlidePresentation189>
+          <SlidePresentation190></SlidePresentation190>
+          <SlidePresentation191></SlidePresentation191>
+          <SlidePresentation192></SlidePresentation192>
+          <SlidePresentation193></SlidePresentation193>
+          <SlidePresentation194></SlidePresentation194>
+          <SlidePresentation195></SlidePresentation195>
         </section>
 
         <section class="counter">
@@ -375,11 +405,11 @@ import SlidePresentation180 from "./components/SlidePresentation180.vue";
             id="index"
             name="index"
             min="1"
-            max="100"
+            max="194"
             value="1"
             style="width: 40%"
           />
-          of 100
+          of 194
         </section>
 
         <section class="navigation">

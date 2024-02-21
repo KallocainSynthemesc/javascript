@@ -403,29 +403,29 @@ export default {
   methods: {
     compile() {
       const textarea = this.$refs.output;
-      textarea.value = "";
+      textarea.value =
+        "Webworker travaille à l'exécution de votre code. Si rien n'est renvoyé, vérifiez le console.log du navigateur et voyez si vous n'avez pas fait une bêtise.";
       const textcontent = monaco.editor
         .getModels()
         [this.editorIndex].getValue();
 
-      const console_log = window.console.log;
-      window.console.log = function (...args) {
-        console_log(...args);
-        if (!textarea) return;
-        args.forEach((arg) => (textarea.value += `${JSON.stringify(arg)}\n`));
+      const worker = new Worker("worker.js");
+      worker.postMessage({ code: textcontent });
+
+      setTimeout(() => {
+        console.log("woker terminated after 5000 millisec");
+        worker.terminate(); //in case the student wrote infinite loop or something else thats stupid
+      }, 5000);
+
+      worker.onmessage = function (event) {
+        if (event.data.status === "success") {
+          textarea.value = event.data.message;
+          console.log("Code executed successfully");
+        } else if (event.data.status === "error") {
+          textarea.value = event.data.message;
+          console.error(event.data.message);
+        }
       };
-
-      try {
-        // Create a new Function with the code content
-        const compiledCode = new Function(textcontent);
-        compiledCode(); // Execute the compiled code
-      } catch (e) {
-        const errorMessage = e.message;
-        const lineNumber = e.lineNumber ? ` at line ${e.lineNumber - 2}` : "";
-        console.log(`Syntax error${lineNumber}: ${errorMessage}`);
-      }
-
-      window.console.log = console_log;
     },
   },
   mounted() {
